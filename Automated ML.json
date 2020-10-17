@@ -1,0 +1,75 @@
+{
+  "properties": {
+    "lenses": {
+      "0": {
+        "order": 0,
+        "parts": {
+          "0": {
+            "position": {
+              "x": 0,
+              "y": 0,
+              "colSpan": 14,
+              "rowSpan": 5
+            },
+            "metadata": {
+              "inputs": [],
+              "type": "Extension/HubsExtension/PartType/MarkdownPart",
+              "settings": {
+                "content": {
+                  "settings": {
+                    "content": "<img src=\"https://wbademobuild0187399067.blob.core.windows.net/images/AutoML.gif\">",
+                    "title": "Automated ML",
+                    "subtitle": "Azure Machine Learning"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "metadata": {
+      "model": {
+        "timeRange": {
+          "value": {
+            "relative": {
+              "duration": 24,
+              "timeUnit": 1
+            }
+          },
+          "type": "MsPortalFx.Composition.Configuration.ValueTypes.TimeRange"
+        },
+        "filterLocale": {
+          "value": "en-us"
+        },
+        "filters": {
+          "value": {
+            "MsPortalFx_TimeRange": {
+              "model": {
+                "format": "utc",
+                "granularity": "auto",
+                "relative": "24h"
+              },
+              "displayCache": {
+                "name": "UTC Time",
+                "value": "Past 24 hours"
+              },
+              "filteredPartIds": [
+                "StartboardPart-MonitorChartPart-03e1c676-52a3-46d1-8a0f-70817df346c4",
+                "StartboardPart-MonitorChartPart-412bf38f-8198-4834-9e5e-c5b05c0c900b",
+                "StartboardPart-MonitorChartPart-d2a79e57-fd40-4c08-9e86-e99973346046"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "name": "Automated ML",
+  "type": "Microsoft.Portal/dashboards",
+  "location": "INSERT LOCATION",
+  "tags": {
+    "hidden-title": "Automated ML"
+  },
+  "apiVersion": "2015-08-01-preview"
+}
